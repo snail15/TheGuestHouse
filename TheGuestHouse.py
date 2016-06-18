@@ -63,7 +63,7 @@ def main():
     gender = str(input("성별: "))
     phone = str(input("Phone: "))
     ssn = str(input("SSN: "))
-    start_date = str(input("Start date: "))
+    start_date = str(input("입주일: "))
 
     addPerson(room_num,name,gender,phone,ssn,start_date)
 
