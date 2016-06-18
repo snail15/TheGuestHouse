@@ -5,10 +5,11 @@ class Person():
         self.phone_number = phone_number
         self.ssn = ssn
         self.start_date = start_date
+        
     def leave(self, leave_date):
         self.leave_date = leave_date
 
-    def isLeft(self):
+    def isExpired(self):
         if self.leave_date != None:
             return True
         else:
